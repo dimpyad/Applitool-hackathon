@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TraditionalTestSuite-v2" >
+	<listeners>
+        <listener class-name="base.TestListener"/>
+    </listeners> 
+    <parameter name="appVersion" value="v2" />
+    <parameter name="testType" value="TRD" />
+    <test name="Tests with traditional approach">
+        <classes>
+            <class name="TraditionalTests.LoginUITest"/> 
+            <class name="TraditionalTests.LoginDataDrivenTest"/>
+            <class name="TraditionalTests.TableSortTest"/> 
+            <class name="TraditionalTests.CanvasChartTest"/>
+            <class name="TraditionalTests.DynamicContentTest"/>
+        </classes>
+    </test>
+</suite>

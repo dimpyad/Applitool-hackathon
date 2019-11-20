@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VisualAITestSuite-v2" >
+    <parameter name="appVersion" value="v2" />
+    <test name="Tests with visual AI approach">
+        <classes>
+            <class name="VisualAITests.LoginUITest"/> 
+            <class name="VisualAITests.LoginDataDrivenTest"/>
+            <class name="VisualAITests.TableSortTest"/> 
+            <class name="VisualAITests.CanvasChartTest"/>
+            <class name="VisualAITests.DynamicContentTest"/>
+        </classes>
+    </test>
+</suite>

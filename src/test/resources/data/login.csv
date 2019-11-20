@@ -1,0 +1,5 @@
+Username,Password,Status,Message,TestName
+"",,Failure,Both Username and Password must be present,Invalid Login - empty username and password
+Test,,Failure,Password must be present,Invalid Login - empty password
+"",Test,Failure,Username must be present,Invalid Login - empty username
+Test,Test,Success,ACME,Valid login
